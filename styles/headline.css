@@ -41,9 +41,9 @@
 }
 .headline__actions {
   margin-top: 58px;
-  display: flex;
+  /* display: flex; */
 }
-.headline__learn-more-btn {
+/* .headline__learn-more-btn {
   margin-left: 10px;
   background-color: #ffffff;
   color: #3040c4;
@@ -53,4 +53,4 @@
   font-weight: 700;
   border-radius: 2px;
   border: none;
-}
+} */

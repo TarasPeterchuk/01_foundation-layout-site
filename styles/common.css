@@ -1,4 +1,7 @@
-.action-button {
+.actions {
+  display: flex;
+}
+.actions__button {
   background-color: #3040c4;
   color: #ffffff;
   width: 160px;
@@ -7,4 +10,44 @@
   font-weight: 700;
   border-radius: 2px;
   border: none;
+}
+.actions__learn-more-btn {
+  margin-left: 10px;
+  background-color: #ffffff;
+  color: #3040c4;
+  width: 158px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
+}
+.categories {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.categories__user-card {
+  width: 262px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  align-items: center;
+  cursor: pointer;
+}
+.categories__user-card:hover {
+  background-color: #3141c5;
+}
+
+.categories__user-card-image {
+  height: 195px;
+  margin-top: 22px;
+}
+.categories__user-card-description {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  margin-top: 22px;
+  margin-bottom: 33px;
 }
