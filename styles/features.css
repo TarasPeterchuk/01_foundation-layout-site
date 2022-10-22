@@ -1,8 +1,14 @@
 .features {
-  display: flex;
-  position: relative;
-  padding-bottom: 110px;
+  display: none;
 }
+@media screen and (min-width: 400px) {
+  .features {
+    display: flex;
+    position: relative;
+    padding-bottom: 110px;
+  }
+}
+
 .features__content {
   width: 1140px;
   display: flex;

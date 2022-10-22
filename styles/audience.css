@@ -1,41 +1,78 @@
 .audience {
   width: 100%;
-  padding-left: 130px;
-  padding-right: 130px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background: #00a1c611;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .audience__subtitle {
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
-  margin-top: 108px;
+  margin-top: 15px;
   margin-bottom: 0px;
 }
 .audience__title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 56px;
-  letter-spacing: -0.5px;
-  width: 555px;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.357143px;
   text-align: center;
-  margin-top: 24px;
+
+  margin-top: 17px;
   margin-bottom: 0px;
 }
 .audience__description {
   font-size: 24px;
   line-height: 34px;
   text-align: center;
-  width: 555px;
-  margin-top: 30px;
+
+  margin-top: 18px;
   margin-bottom: 0px;
 }
 .audience__actions {
-  margin-top: 34px;
+  width: 100%;
+  margin-top: 30px;
 }
 .audience__categories {
-  margin-top: 111px;
-  margin-bottom: 110px;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+.audience__button-black-text {
+  color: black; /* looks like error in figma */
+}
+
+@media screen and (min-width: 400px) {
+  .audience {
+    padding-left: 130px;
+    padding-right: 130px;
+    background: #00a1c611;
+  }
+  .audience__subtitle {
+    margin-top: 108px;
+  }
+  .audience__title {
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    width: 555px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+  }
+  .audience__description {
+    width: 555px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .audience__actions {
+    width: auto;
+    margin-top: 34px;
+  }
+  .audience__categories {
+    margin-top: 111px;
+    margin-bottom: 110px;
+  }
 }

@@ -7,10 +7,19 @@ html {
   font-family: 'Work Sans', sans-serif;
   color: #2b292d;
 }
+body {
+  margin: 0;
+}
 .page {
-  width: 1400px;
-  margin: auto;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+}
+@media screen and (min-width: 400px) {
+  .page {
+    width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 }
