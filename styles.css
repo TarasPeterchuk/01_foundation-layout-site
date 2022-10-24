@@ -575,7 +575,7 @@
     padding-left: 0px;
     margin: auto;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     background-color: transparent;
   }
 }
