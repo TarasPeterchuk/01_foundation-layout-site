@@ -1,0 +1,38 @@
+.customers {
+  display: flex;
+  flex-wrap: wrap;
+  @include for-large-up {
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px 130px 106px 130px;
+  }
+  &__item {
+    display: flex;
+    flex-basis: calc(100% / 3);
+    align-items: center;
+    justify-content: center;
+    height: 94px;
+    width: 107px;
+    border-bottom: 1px solid $color-light-grey;
+    border-right: 1px solid $color-light-grey;
+    &:nth-child(3) {
+      border-right: none;
+    }
+    &:nth-child(6) {
+      border-right: none;
+    }
+    @include for-large-up {
+      flex-basis: auto;
+      height: auto;
+      width: auto;
+      border: none;
+    }
+  }
+  &__logo {
+    filter: brightness(0);
+    max-width: 80%;
+    @include for-large-up {
+      max-width: 100%;
+    }
+  }
+}

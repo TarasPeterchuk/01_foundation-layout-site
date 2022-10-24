@@ -1,0 +1,84 @@
+.order {
+  padding: 50px 15px;
+  background-color: $color-light;
+  @include for-large-up {
+    padding: 73px 0 72px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__details {
+    @include for-large-up {
+      max-width: 555px;
+    }
+  }
+  &__illustration {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    @include for-large-up {
+      margin: 0;
+      max-width: 269px;
+      margin-right: 121px;
+    }
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    margin: 0;
+    margin-top: 40px;
+    @include for-large-up {
+      margin-top: 0;
+    }
+  }
+  &__text {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0;
+    margin-top: 18px;
+  }
+  &__form {
+    @include for-large-up {
+      display: flex;
+      margin-top: 26px;
+    }
+  }
+  &__email {
+    margin-top: 40px;
+    border: 1px solid $border-color;
+    border-radius: 2px;
+    height: 48px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 13px;
+    &::placeholder {
+      color: $color-dark;
+    }
+    @include for-large-up {
+      margin-top: 0;
+      width: 385px;
+    }
+  }
+  &__button {
+    margin-top: 12px;
+    @include for-large-up {
+      margin-top: 0;
+      margin-left: 10px;
+    }
+  }
+  &__terms {
+    font-size: 14px;
+    line-height: 22px;
+    color: $text-color-light-grey;
+    margin: 0;
+    margin-top: 10px;
+  }
+  &__terms-link {
+    color: $text-color-blue;
+  }
+}
