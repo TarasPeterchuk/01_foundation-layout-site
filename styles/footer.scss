@@ -1,17 +1,17 @@
 .footer {
-  margin-top: auto;
   display: flex;
   flex-direction: column;
+  margin-top: auto;
   margin-bottom: 0;
   &__description {
     display: none;
   }
   &__line {
-    border-top: 1px solid #2b292d;
+    border-top: 1px solid $color-dark;
     width: 100%;
-    opacity: 0.1;
     margin: 0;
     margin-top: 40px;
+    opacity: 0.1;
     @include for-large-up {
       margin: 0;
     }
@@ -23,7 +23,7 @@
       font-size: 18px;
       width: 360px;
       margin-top: 26px;
-      color: #2b292d99;
+      color: $color-dark-transparent-99;
     }
   }
   .about-company {
@@ -40,21 +40,21 @@
 }
 
 .footer-navigation {
-  margin: 0;
   display: flex;
   flex-direction: column;
+  margin: 0;
   @include for-large-up {
-    width: 1140px;
-    margin: 0 auto;
-    height: 338px;
     display: flex;
     flex-direction: row;
+    height: 338px;
+    width: 1140px;
+    margin: 0 auto;
   }
 }
 .downloads {
-  margin: 31px 15px 0 15px;
   display: flex;
   justify-content: center;
+  margin: 31px 15px 0 15px;
   &__item:nth-child(1) {
     margin-right: 10px;
   }
@@ -66,9 +66,9 @@
 }
 
 .additional-navigation {
-  margin: 0 15px;
   display: flex;
   flex-direction: column;
+  margin: 0 15px;
   &__column {
     margin-top: 30px;
     @include for-large-up {
@@ -77,45 +77,45 @@
     }
   }
   @include for-large-up {
-    margin: 60px 0 0 126px;
     flex-direction: row;
+    margin: 60px 0 0 126px;
   }
 }
 
 .nav-links {
   margin-top: 30px;
   @include for-large-up {
-    margin-top: 0px;
     width: 265px;
+    margin-top: 0px;
   }
 
   &__title {
+    margin: 0;
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
-    color: #2b292d;
-    margin: 0;
+    color: $color-dark;
   }
   &__list {
+    margin: 0;
+    margin-top: 18px;
+    padding: 0;
     list-style-type: none;
     font-size: 18px;
     line-height: 30px;
     color: rgba(43, 41, 45, 0.6);
-    padding: 0;
-    margin: 0;
-    margin-top: 18px;
   }
 }
 .footer-links {
-  margin-left: 15px;
   flex-direction: column;
+  margin-left: 15px;
   @include for-large-up {
-    height: 50px;
-    width: 1140px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     flex-direction: row;
+    height: 50px;
+    width: 1140px;
+    margin: 0 auto;
   }
 }
 
@@ -128,13 +128,12 @@
     line-height: 50px;
   }
   &__items {
-    text-decoration: none;
-    color: #2b292d;
-    opacity: 0.6;
     margin-right: 22px;
+    text-decoration: none;
+    color: $color-dark;
+    opacity: 0.6;
   }
 }
-
 .social-links {
   margin-top: 31px;
   margin-bottom: 22px;
@@ -147,7 +146,6 @@
     margin-left: 20px;
   }
 }
-
 .logo-vertical {
   display: flex;
   flex-direction: column;
@@ -170,6 +168,6 @@
     font-size: 20px;
     line-height: 25px;
     text-align: center;
-    color: #2b292d99;
+    color: $text-color-light-grey;
   }
 }
