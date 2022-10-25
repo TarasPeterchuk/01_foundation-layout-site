@@ -28,8 +28,9 @@
   }
   .about-company {
     margin-top: 40px;
-
-    margin-top: 44px;
+    @include for-large-up {
+      margin-top: 44px;
+    }
   }
   .logo {
     display: none;

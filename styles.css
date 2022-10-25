@@ -383,7 +383,11 @@
 }
 .footer .about-company {
   margin-top: 40px;
-  margin-top: 44px;
+}
+@media screen and (min-width: 1400px) {
+  .footer .about-company {
+    margin-top: 44px;
+  }
 }
 .footer .logo {
   display: none;
