@@ -1,6 +1,6 @@
 # Responsive layout - Foundation
 
-### [Site link](https://github.com/TarasPeterchuk/01_foundation-layout-site)
+### [Site link](https://taraspeterchuk.github.io/01_foundation-layout-site/)
 
 Layout for mobile and desktop versions (breakpoint 1400px)
 
