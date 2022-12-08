@@ -7,7 +7,10 @@
     font-size: 18px;
     font-weight: 700;
     border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     border: none;
+    cursor: pointer;
   }
   &__learn-more-btn {
     width: 100%;
@@ -17,30 +20,22 @@
     font-size: 18px;
     font-weight: 700;
     border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     border: none;
     margin-top: 15px;
+    cursor: pointer;
   }
   @include for-large-up {
-    & {
-      display: flex;
-    }
     &__button {
       width: 160px;
       height: 48px;
-      font-size: 18px;
-      font-weight: 700;
-      border-radius: 2px;
-      border: none;
     }
     &__learn-more-btn {
       width: 158px;
       height: 48px;
       margin-top: 0;
       margin-left: 10px;
-      font-size: 18px;
-      font-weight: 700;
-      border-radius: 2px;
-      border: none;
     }
   }
 }
@@ -56,10 +51,13 @@
     margin-bottom: 15px;
     border-radius: 8px;
     background-color: $color-white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     cursor: pointer;
   }
   &__user-card:hover {
     background-color: $color-blue-midle;
+    color: $text-color-white;
   }
 
   &__user-card-image {
