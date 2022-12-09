@@ -6,8 +6,8 @@
   padding-left: 15px;
   background-color: white;
   @include for-large-up {
-    margin: auto;
     display: flex;
+    margin: auto;
     align-items: center;
     width: 1140px;
     height: 62px;
@@ -61,13 +61,11 @@
       font-weight: 700;
     }
   }
-
   &__item:last-child {
     @include for-large-up {
       margin-right: 0;
     }
   }
-
   &__arrow {
     @include for-large-up {
       display: inline-block;
@@ -81,9 +79,6 @@
 
 .logo__description {
   display: none;
-}
-
-@include for-large-up {
 }
 
 .logo {
@@ -116,7 +111,6 @@
   &__image {
     @include for-large-up {
       margin-right: 15px;
-      margin-left: 10px;
       width: 60px;
       height: 60px;
     }

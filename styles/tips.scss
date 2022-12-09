@@ -4,10 +4,10 @@
     display: none;
   }
 }
+
 .tip {
   padding: 40px 15px 0 15px;
   border-bottom: 1px solid $color-light-grey;
-
   &:last-child {
     border: none;
   }
@@ -17,7 +17,6 @@
     line-height: 34px;
     color: $text-color-green;
   }
-
   &__title {
     margin: 0;
     margin-top: 17px;

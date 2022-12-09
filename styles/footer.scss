@@ -26,17 +26,19 @@
       color: $color-dark-transparent-99;
     }
   }
-  .about-company {
-    margin-top: 40px;
-    @include for-large-up {
-      margin-top: 44px;
-    }
+}
+
+.about-company {
+  margin-top: 40px;
+  @include for-large-up {
+    margin-top: 44px;
   }
-  .logo {
-    display: none;
-    @include for-large-up {
-      display: flex;
-    }
+}
+
+.logo {
+  display: none;
+  @include for-large-up {
+    display: flex;
   }
 }
 
@@ -52,6 +54,7 @@
     margin: 0 auto;
   }
 }
+
 .downloads {
   display: flex;
   justify-content: center;
@@ -89,7 +92,6 @@
     width: 265px;
     margin-top: 0px;
   }
-
   &__title {
     margin: 0;
     font-weight: 700;
@@ -107,13 +109,14 @@
     color: $color-dark-transparent-99;
   }
 }
+
 .footer-links {
   flex-direction: column;
   margin-left: 15px;
   @include for-large-up {
     display: flex;
-    align-items: center;
     flex-direction: row;
+    align-items: center;
     height: 50px;
     width: 1140px;
     margin: 0 auto;
@@ -135,6 +138,7 @@
     opacity: 0.6;
   }
 }
+
 .social-links {
   margin-top: 31px;
   margin-bottom: 22px;
@@ -147,6 +151,7 @@
     margin-left: 20px;
   }
 }
+
 .logo-vertical {
   display: flex;
   flex-direction: column;

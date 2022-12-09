@@ -373,19 +373,21 @@
     color: 2b292d99;
   }
 }
-.footer .about-company {
+
+.about-company {
   margin-top: 40px;
 }
 @media screen and (min-width: 1400px) {
-  .footer .about-company {
+  .about-company {
     margin-top: 44px;
   }
 }
-.footer .logo {
+
+.logo {
   display: none;
 }
 @media screen and (min-width: 1400px) {
-  .footer .logo {
+  .logo {
     display: flex;
   }
 }
@@ -475,8 +477,8 @@
 @media screen and (min-width: 1400px) {
   .footer-links {
     display: flex;
-    align-items: center;
     flex-direction: row;
+    align-items: center;
     height: 50px;
     width: 1140px;
     margin: 0 auto;
@@ -554,8 +556,8 @@
 }
 @media screen and (min-width: 1400px) {
   .header {
-    margin: auto;
     display: flex;
+    margin: auto;
     align-items: center;
     width: 1140px;
     height: 62px;
@@ -665,7 +667,6 @@
 @media screen and (min-width: 1400px) {
   .logo__image {
     margin-right: 15px;
-    margin-left: 10px;
     width: 60px;
     height: 60px;
   }
@@ -685,8 +686,8 @@
 }
 @media screen and (min-width: 1400px) {
   .headline {
-    position: relative;
     display: flex;
+    position: relative;
     width: 1140px;
     margin: auto;
     margin-top: 84px;
