@@ -111,6 +111,7 @@
   &__image {
     @include for-large-up {
       margin-right: 15px;
+      margin-left: 10px;
       width: 60px;
       height: 60px;
     }
