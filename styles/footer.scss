@@ -26,19 +26,17 @@
       color: $color-dark-transparent-99;
     }
   }
-}
-
-.about-company {
-  margin-top: 40px;
-  @include for-large-up {
-    margin-top: 44px;
+  .about-company {
+    margin-top: 40px;
+    @include for-large-up {
+      margin-top: 44px;
+    }
   }
-}
-
-.logo {
-  display: none;
-  @include for-large-up {
-    display: flex;
+  .logo {
+    display: none;
+    @include for-large-up {
+      display: flex;
+    }
   }
 }
 

@@ -59,6 +59,7 @@
     background-color: $color-blue-midle;
     color: $text-color-white;
   }
+
   &__user-card-image {
     height: 195px;
     margin-top: 22px;
@@ -92,8 +93,9 @@
     }
   }
 }
-@include for-large-up {
-  .show_mobile {
+
+.show_mobile {
+  @include for-large-up {
     display: none;
   }
 }
